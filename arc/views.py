@@ -5,7 +5,7 @@ from .models import DonationUser,paymentCP
 import razorpay
 import json
 from django.views import View
-client = razorpay.Client(auth=("rzp_test_Z7MdZA5qRchXLL", "LzzAeIOlzaiz1lJ69rk5NJ10"))
+client = razorpay.Client(auth=("rzp_test_VG1ANSKYs49lbu", "FjVayjiZt8sTQckYac8VAb0h"))
 client.set_app_details({"title" : "arc", "version" : "1.0.1"})
 
 class homepage(View):
